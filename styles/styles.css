@@ -1,1 +1,91 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  height: 90vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header--text {
+  width: 50%;
+  margin-left: 3vw;
+}
+
+header .header--text .header--text--title {
+  font-family: "Fraunces", serif;
+  color: #000000;
+  font-size: 28px;
+}
+
+header .header--text .header--text--subtitle {
+  color: #009B48;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+}
+
+header .header--cards {
+  width: 50%;
+  position: relative;
+  height: 100%;
+}
+
+header .header--cards .card {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 60%;
+  background-color: #009B48;
+  top: 15%;
+  left: 25%;
+}
+
+header .header--cards .card2 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  background-color: #0045AD;
+  top: 45%;
+  left: 65%;
+}
+
+header .header--cards .card3 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 35% 0%;
+  background-color: #FF5900;
+  top: 65%;
+  left: 5%;
+}
+
+header .header--cards .card4 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 0% 15% 15% 15%;
+  background-color: #FFD500;
+  top: 8%;
+  left: 65%;
+}
+
+header .header--cards .card5 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 4%;
+  background-color: #B90000;
+  top: 80%;
+  left: 50%;
+}
+/*# sourceMappingURL=styles.css.map */

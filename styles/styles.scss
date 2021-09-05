@@ -1,3 +1,5 @@
+//Variables
+
 $bodyBG:#FFFFFF;
 $fontMainColor:#000000;
 $greenRubik:#009B48;
@@ -5,5 +7,84 @@ $yellowRubik:#FFD500;
 $redRubik:#B90000;
 $blueRubik:#0045AD;
 $orangeRubik:#FF5900;
-$titleFont:font-family: 'Fraunces', serif;
-$contentFont:font-family: 'DM Sans', sans-serif;
+$titleFont:'Fraunces', serif;
+$contentFont:'DM Sans', sans-serif;
+
+//Global resets
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//Header
+header{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .header--text{
+        width: 50%;
+        margin-left: 3vw;
+        .header--text--title{
+            font-family: $titleFont;
+            color: $fontMainColor;
+            font-size: 28px;
+        }
+        .header--text--subtitle{
+            color: $greenRubik;
+            font-size: 14px;
+            font-family: $contentFont;
+        }
+    }
+    .header--cards{
+        width: 50%;
+        position: relative;
+        height: 100%;
+        .card{
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            border-radius: 60%;
+            background-color: $greenRubik;
+            top: 15%;
+            left: 25%;
+        }
+        .card2{
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            border-radius: 20%;
+            background-color: $blueRubik;
+            top: 45%;
+            left: 65%;
+        }
+        .card3{
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            border-radius: 35% 0%;
+            background-color: $orangeRubik;
+            top: 65%;
+            left: 5%;
+        }
+        .card4{
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            border-radius: 0% 15% 15% 15%;
+            background-color: $yellowRubik;
+            top: 8%;
+            left: 65%;
+        }
+        .card5{
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            border-radius: 4%;
+            background-color: $redRubik;
+            top: 80%;
+            left: 50%;
+        }
+    }
+}
